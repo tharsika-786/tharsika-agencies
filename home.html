@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sri Tharsika Agencies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: url('logo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #372f91;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 3rem 1rem;
+      background: rgba(255, 255, 255, 0.85);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #372f91;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .card h3 {
+      color: #372f91;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px #25D366;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav a {
+        font-size: 0.95rem;
+      }
+      .hero {
+        padding: 2rem 1rem;
+      }
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+      .hero p {
+        font-size: 0.9rem;
+      }
+      .services {
+        padding: 1.5rem;
+        grid-template-columns: 1fr;
+      }
+      .card {
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 1.5rem 1rem;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      nav a {
+        font-size: 1rem;
+      }
+      .hero h2 {
+        font-size: 1.2rem;
+      }
+      .hero p {
+        font-size: 0.85rem;
+      }
+      .whatsapp {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+        right: 15px;
+        bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sri Tharsika Agencies</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>One Stop Solution for Your Home Needs</h2>
+    <p>Solar Panels | RO Water Purifier | Inverter & Battery | DTH | Sales & Service</p>
+  </section>
+
+  <section class="services">
+    <div class="card">
+      <h3>Solar Panel Solutions</h3>
+      <p>Energy-efficient solar panel installations with expert guidance for residential and commercial needs.</p>
+    </div>
+    <div class="card">
+      <h3>RO Purifiers</h3>
+      <p>We deal in branded water purifiers and provide regular servicing.</p>
+    </div>
+    <div class="card">
+      <h3>Inverter Solutions</h3>
+      <p>Choose from top inverter brands with expert consultation & setup.</p>
+    </div>
+    <div class="card">
+      <h3>Battery Backup</h3>
+      <p>Wide range of batteries for home and industrial usage, fully guaranteed.</p>
+    </div>
+    <div class="card">
+      <h3>All DTH Services</h3>
+      <p>New connections, setup box upgrades & quick installation support.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; Sri Tharsika Agencies. All rights reserved.
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/919842368274" target="_blank">
+    💬 Chat with us
+  </a>
+
+</body>
+</html>

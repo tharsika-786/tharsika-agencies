@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Products - Sri Tharsika Agencies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9f9ff;
+      color: #333;
+    }
+
+    header {
+      background: #372f91;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      color: #372f91;
+      margin-bottom: 1rem;
+    }
+
+    .category {
+      margin-bottom: 3rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .product {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .product h4 {
+      color: #372f91;
+      margin-bottom: 0.5rem;
+    }
+
+    .product p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sri Tharsika Agencies</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <h2>Our Products</h2>
+
+    <!-- RO Water Purifier Section -->
+    <div class="category">
+      <h3>RO Water Purifiers (2-Year Warranty & Installation Included)</h3>
+      <div class="product-grid">
+        <div class="product">
+          <img src="images/innovica.jpg" alt="Innovica RO">
+          <h4>Innovica</h4>
+          <p>Premium quality with 2-year warranty and free installation.</p>
+        </div>
+        <div class="product">
+          <img src="images/aqua2090.jpg" alt="Aqua 2090">
+          <h4>Aqua 2090</h4>
+          <p>Compact design RO purifier with full support and warranty.</p>
+        </div>
+        <div class="product">
+          <img src="images/aquajade.jpg" alt="Aqua Jade">
+          <h4>Aqua Jade</h4>
+          <p>Stylish look with powerful water purification technology.</p>
+        </div>
+        <div class="product">
+          <img src="images/aquaqueens.jpg" alt="Aqua Queens">
+          <h4>Aqua Queens</h4>
+          <p>Advanced filter system and elegant design.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Battery & Inverter Section -->
+    <div class="category">
+      <h3>Battery & Inverter (All Brands Available)</h3>
+      <div class="product-grid">
+        <div class="product">
+          <img src="images/luminous-battery.jpg" alt="Luminous Battery">
+          <h4>Luminous Battery</h4>
+          <p>High backup batteries for home and office.</p>
+        </div>
+        <div class="product">
+          <img src="images/luminous-inverter.jpg" alt="Luminous Inverter">
+          <h4>Luminous Inverter</h4>
+          <p>Reliable power inverters with full setup and support.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- You can add CCTV, Solar, and DTH sections below similarly -->
+
+  </div>
+
+  <footer>
+    &copy; 2025 Sri Tharsika Agencies. All rights reserved.
+  </footer>
+
+</body>
+</html>
